@@ -13,7 +13,7 @@ class Vacations extends Migration
      */
     public function up()
     {
-        Schema::create('vacation',function (Blueprint $table){
+        Schema::create('vacations',function (Blueprint $table){
             $table->bigIncrements('id');
         });
     }
