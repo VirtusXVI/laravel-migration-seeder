@@ -15,6 +15,7 @@ class Vacations extends Migration
     {
         Schema::create('vacations',function (Blueprint $table){
             $table->bigIncrements('id');
+            $table->timestamps();
         });
     }
 

@@ -18,5 +18,6 @@ class VacationsTableSeeder extends Seeder
         $new_vacation->name = $faker->words(3, true);
         $new_vacation->city = $faker->countryCode();
         $new_vacation->price = $faker->randomFloat(2, 100, 999999);
+        $new_vacation->save();
     }
 }
